@@ -258,7 +258,7 @@ int main(int argc, char *argv[])
     Arquivo arq;
     string diretorio=argv[1];
     string arq1= diretorio+="/brazil_cities_coordinates.csv";
-    string arq2= diretorio+="/brazil_covid19_cities_processado.csv";*/
+    string arq2= diretorio+="/brazil_covid19_cities_processado.csv";
 
     HashTable* ht = new HashTable(2000069);
     ArvoreQ* Q = new ArvoreQ();
